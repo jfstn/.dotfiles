@@ -1,6 +1,6 @@
 # gitconfig.local should include local or private configuration
 [include]
-    path = ~/.dotfiles/git/gitconfig.local
+    path = ~/.dotfiles/git/.gitconfig.local
 
 [core]
     editor = vim
