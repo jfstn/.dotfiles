@@ -1,0 +1,5 @@
+# open photoshop easily
+alias photoshop='open -a Adobe\ Photoshop\ CC\ 2018'
+
+# cd to git repo root
+alias git-root='cd "$(git rev-parse --show-cdup)"'
