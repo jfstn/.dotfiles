@@ -1,0 +1,8 @@
+{
+    "eslint.autoFixOnSave": true,
+    "eslint.run": "onSave",
+    "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "json", "html", "css", "markdown"],
+    "suggest.maxCompleteItemCount":20,
+    "typescript.validate.enable": false,
+    "javascript.updateImportsOnFileMove.enable": true
+}
