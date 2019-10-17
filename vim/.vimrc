@@ -94,7 +94,7 @@ map  <Leader>n  :NERDTreeFind<CR> "\ + n to open NERDTreeFind
 
 " Coc extensions
 " \ 'coc-sh', " currently not working correctly with node 12
-let g:global_extensions = [
+let g:coc_global_extensions = [
             \ 'coc-emmet',
             \ 'coc-eslint',
             \ 'coc-prettier',
