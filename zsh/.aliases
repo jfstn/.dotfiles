@@ -1,3 +1,7 @@
+# define alias in this file
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
 # open photoshop easily
 alias photoshop='open -a Adobe\ Photoshop\ CC\ 2018'
 
