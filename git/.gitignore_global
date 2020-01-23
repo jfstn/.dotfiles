@@ -33,3 +33,5 @@ Thumbs.db
 # Text Editors #
 *.swp
 
+# VS Code History Extension 
+.history
