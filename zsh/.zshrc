@@ -51,3 +51,5 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.dotfiles/zsh/.aliases ] && source ~/.dotfiles/zsh/.aliases
 [ -f ~/.dotfiles/zsh/.functions ] && source ~/.dotfiles/zsh/.functions
+
+. /usr/local/etc/profile.d/z.sh

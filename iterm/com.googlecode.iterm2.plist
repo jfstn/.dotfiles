@@ -8,6 +8,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -418,7 +420,7 @@
 	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
 	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
 	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
-	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oZ2yLQ5W0iUmNzhe
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0BzsZ2yLQ5W0iUmNzhe
 	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
 	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
 	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
@@ -443,8 +445,12 @@
 	<string>0 122 224 275 0 0 1792 1097 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
 	<string>496 496 799 448 0 0 1792 1097 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>696 743 400 129 0 0 1792 1120 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>586 546 620 392 0 0 1792 1120 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 39 690 426 0 0 1792 1120 </string>
+	<string>448 8 690 426 0 0 1792 1120 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>227 115 570 452 0 0 1792 1097 </string>
 	<key>New Bookmarks</key>
@@ -1197,6 +1203,7 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.7</string>
+		<string>3.3.8</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -1212,11 +1219,13 @@
 	<key>NoSyncInstallationId</key>
 	<string>397C27EC-E25D-4D1D-BECB-0A4F2819610A</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>2</integer>
+	<integer>8</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>601385751.23582494</real>
+	<real>602167100.61024404</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1941,6 +1950,8 @@
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>4</integer>
 	<key>PointerActions</key>
@@ -1978,6 +1989,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/joaofaustino/.dotfiles/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -1991,8 +2004,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-20T21:47:08Z</date>
+	<date>2020-02-12T09:57:08Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
@@ -2017,7 +2032,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.8</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
