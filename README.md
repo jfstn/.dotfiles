@@ -5,15 +5,4 @@ Includes brew installed programs list, ubuntu mono powerline font with nerd icon
 
 ## installation
 
-_WIP_
-
-Before running `install.sh`:
-
--   `.config`: remove lines that match directories that you don't want installed;
--   Don't worry about dotfiles getting replaced. A backup will be made.
-
-To install run `./install.sh`
-
-## tmux
-
-## vim
+WIP: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jfstn/.dotfiles/master/install.sh)"`

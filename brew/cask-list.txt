@@ -1,10 +1,12 @@
 blue-jeans
 deluge
 discord
+firefox
 firefox-developer-edition
 fork
 google-chrome-dev
 iterm2
+nvidia-geforce-now
 postman
 slack
 tunnelblick
@@ -13,4 +15,3 @@ vlc
 vscodium
 whatsapp
 zeplin
-zoom
