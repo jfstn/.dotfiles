@@ -362,6 +362,12 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>E77ED520-4377-4167-8BF8-AA13332E545C</string>
+	<key>DimBackgroundWindows</key>
+	<false/>
+	<key>DimInactiveSplitPanes</key>
+	<true/>
+	<key>DimOnlyText</key>
+	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
 	<key>EnableDivisionView</key>
@@ -420,7 +426,7 @@
 	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
 	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
 	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
-	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0BzsZ2yLQ5W0iUmNzhe
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oZ2yLQ5W0iUmNzhe
 	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
 	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
 	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
@@ -441,18 +447,10 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 122 224 275 0 0 1792 1097 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>496 496 799 448 0 0 1792 1097 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>696 743 400 129 0 0 1792 1120 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>586 546 620 392 0 0 1792 1120 </string>
+	<string>320 345 799 448 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>448 8 690 426 0 0 1792 1120 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>227 115 570 452 0 0 1792 1097 </string>
+	<string>0 25 605 351 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -980,9 +978,9 @@
 				<key>0xf703-0x280000</key>
 				<dict>
 					<key>Action</key>
-					<integer>11</integer>
+					<integer>30</integer>
 					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x43</string>
+					<string></string>
 				</dict>
 				<key>0xf704-0x20000</key>
 				<dict>
@@ -1119,7 +1117,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>UbuntuMonoDerivativeNerdFont-Regular 16</string>
+			<string>UbuntuMonoDerivativeNerdFont-Regular 11</string>
 			<key>Open Toolbelt</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1202,30 +1200,28 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.7</string>
-		<string>3.3.8</string>
+		<string>3.3.11</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
 		<string>UbuntuMonoDerivative Nerd Font</string>
+		<string>Menlo</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1792, 1120}}</string>
+		<string>{{0, 0}, {1440, 900}}</string>
 		<key>topLeft</key>
-		<string>{574, 885}</string>
+		<string>{397, 727}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>397C27EC-E25D-4D1D-BECB-0A4F2819610A</string>
+	<string>7A60AB71-71D5-4126-AE97-7AC0D93B0681</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>8</integer>
+	<integer>4</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>602167100.61024404</real>
+	<real>614773952.609272</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -1648,7 +1644,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.path</string>
+				<string>currentTab.currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1656,7 +1652,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.commandLine</string>
+				<string>currentTab.currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1740,14 +1736,6 @@
 				<true/>
 				<key>name</key>
 				<string>tmuxWindowTitle</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1875,7 +1863,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.path</string>
+				<string>currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1883,7 +1871,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1941,7 +1929,7 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>601212951.235672</real>
+	<real>614601152.60911095</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1954,6 +1942,8 @@
 	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>4</integer>
+	<key>PerPaneBackgroundImage</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2000,21 +1990,25 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=42</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=50</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-12T09:57:08Z</date>
+	<date>2020-06-26T10:41:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>SUUpdateRelaunchingMarker</key>
+	<key>SeparateStatusBarsPerPane</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>ShowPaneTitles</key>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.1188469636524823</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
@@ -2027,12 +2021,14 @@
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
+	<key>WindowNumber</key>
+	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.8</string>
+	<string>3.3.11</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
