@@ -5,6 +5,7 @@
 [core]
     editor = vim
 	autocrlf = false
+	ignorecase = false
 	excludesfile = ~/.dotfiles/git/.gitignore_global
 
 [alias]
