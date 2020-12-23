@@ -53,3 +53,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 [ -f ~/.dotfiles/zsh/.functions ] && source ~/.dotfiles/zsh/.functions
 
 . /usr/local/etc/profile.d/z.sh
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/joaofaustino/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
